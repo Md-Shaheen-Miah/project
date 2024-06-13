@@ -24,19 +24,19 @@ import  './style.css';
           style={{ maxHeight: '100px',marginLeft:'40%' }}
           navbarScroll
         >
-          <Nav.Link className='white' href="#action1">Home</Nav.Link>
-          <Nav.Link className='white' href="#action2">Contact</Nav.Link>
-          <NavDropdown className='white' title="Dropdown" id="navbarScrollingDropdown">
-            <NavDropdown.Item className='white' href="#action3">Items</NavDropdown.Item>
+          <Nav.Link className='white' href="/Home">Home</Nav.Link>
+          <Nav.Link className='white' href="/Contact">Contact</Nav.Link>
+          <NavDropdown className='white' title="Services" id="navbarScrollingDropdown">
+            <NavDropdown.Item  href="#action3">Items</NavDropdown.Item>
             <NavDropdown.Item href="#action4">
               Another action
             </NavDropdown.Item>
-            <NavDropdown.Divider />
+           
             <NavDropdown.Item href="#action5">
               Something else here
             </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link className='white' href="#" disabled>
+          <Nav.Link className='white' href="/About">
            About
           </Nav.Link>
         </Nav>

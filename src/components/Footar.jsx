@@ -14,9 +14,9 @@ import './style.css';
         </div>
         <div className="footer-section">
           <h4>Contact Us</h4>
-          <p>Email: info@company.com</p>
-          <p>Phone: +123-456-7890</p>
-          <p>Address: 123 Main Street, Anytown, USA</p>
+          <p>Email: mdshaheen60101@gmail.com</p>
+          <p>Phone: +8801641160101</p>
+          <p>Address: Dhanmondi Dhaka , Bangladesh</p>
         </div>
         <div className="footer-section">
           <h4>Quick Links</h4>
