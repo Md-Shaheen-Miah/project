@@ -24,7 +24,7 @@ import  './style.css';
           style={{ maxHeight: '100px',marginLeft:'40%' }}
           navbarScroll
         >
-          <Nav.Link className='white' href="/Home">Home</Nav.Link>
+          <Nav.Link  className='white' href="/Home">Home</Nav.Link>
           <Nav.Link className='white' href="/Contact">Contact</Nav.Link>
           <NavDropdown className='white' title="Services" id="navbarScrollingDropdown">
             <NavDropdown.Item  href="#action3">Items</NavDropdown.Item>

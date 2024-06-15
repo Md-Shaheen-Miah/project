@@ -6,7 +6,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
   return (
     <CardGroup>
       <Card style={{backgroundColor:'#088567'}}>
-        <Card.Img style={{height:'250px',borderRadius:'100%'}} variant="top" src="src/components/images/card2.jpg" />
+        <Card.Img style={{height:'250px',borderRadius:'100%'}} variant="top" src="src/components/images/card1.jpg" />
         <Card.Body style={{backgroundColor:'#008000',border:'1px solid black',borderRadius:'10px'}}>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -15,11 +15,11 @@ import CardGroup from 'react-bootstrap/CardGroup';
           </Card.Text>
         </Card.Body >
         <Card.Footer  style={{backgroundColor:'#2243b6',borderRadius:'10px'}}>
-        <Card.Link  style={{color:'white'}} href="#">Another Link</Card.Link>
+        <Card.Link  style={{color:'white' ,textDecoration:'none'}} href="#">Another Link</Card.Link>
         </Card.Footer>
       </Card>
       <Card style={{backgroundColor:'#088567'}}>
-        <Card.Img style={{height:'250px',borderRadius:'100%'}}  variant="top" src="src/components/images/card3.jpg" />
+        <Card.Img style={{height:'250px',borderRadius:'100%'}}  variant="top" src="src/components/images/card2.jpg" />
         <Card.Body  style={{backgroundColor:'#008000',border:'1px solid black',borderRadius:'10px'}}>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -28,11 +28,11 @@ import CardGroup from 'react-bootstrap/CardGroup';
           </Card.Text>
         </Card.Body>
         <Card.Footer  style={{backgroundColor:'#2243b6',borderRadius:'10px'}}>
-        <Card.Link  style={{color:'white'}} href="#">Another Link</Card.Link>
+        <Card.Link  style={{color:'white' ,textDecoration:'none'}} href="#">Another Link</Card.Link>
         </Card.Footer>
       </Card>
       <Card style={{backgroundColor:'#088567'}}>
-        <Card.Img style={{height:'250px',borderRadius:'100%'}}  variant="top" src="src/components/images/card4.jpg" />
+        <Card.Img style={{height:'250px',borderRadius:'100%'}}  variant="top" src="src/components/images/card3.jpg" />
         <Card.Body  style={{backgroundColor:'#008000',border:'1px solid black',borderRadius:'10px'}}>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -42,7 +42,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
           </Card.Text>
         </Card.Body>
         <Card.Footer style={{backgroundColor:'#2243b6',borderRadius:'10px'}}>
-        <Card.Link style={{color:'white'}} href="#">Another Link</Card.Link>
+        <Card.Link style={{color:'white',textDecoration:'none'}} href="#">Another Link</Card.Link>
         </Card.Footer>
       </Card>
     </CardGroup>

@@ -37,7 +37,7 @@ import './style.css';
               <img src="src/components/images/twiter.png" alt="Twitter" />
             </a>
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src="src/components/images/instragram.jfif" alt="Instagram" />
+              <img src="src/components/images/instragram.avif" alt="Instagram" />
             </a>
           </div>
         </div>
