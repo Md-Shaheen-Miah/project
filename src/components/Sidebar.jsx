@@ -14,9 +14,9 @@ const Sidebar = () => {
         <h2>E-Commerce</h2>
       </div>
       <nav className="sidebar-nav">
-        <NavLink to="/Home" exact activeClassName="active">
+        <NavLink to="/Dashboard" exact activeClassName="active">
           <FaHome className="sidebar-icon" />
-          <span>Home</span>
+          <span>Dashboard</span>
         </NavLink>
         <NavLink to="/Products" activeClassName="active">
           <FaShoppingCart className="sidebar-icon" />
@@ -27,8 +27,16 @@ const Sidebar = () => {
           <span>Categories</span>
         </NavLink>
         <NavLink to="/profile" activeClassName="active">
-          <FaUserCircle className="sidebar-icon" />
+          <FaUserCircle className="sidebar-icon" />    
           <span>Profile</span>
+        </NavLink>
+        <NavLink to="/Users" activeClassName="active">
+          <FaUserCircle className="sidebar-icon" />    
+          <span>Users</span>
+        </NavLink>
+        <NavLink to="/Supplier" activeClassName="active">
+          <FaUserCircle className="sidebar-icon" />    
+          <span>Supplier</span>
         </NavLink>
         <NavLink to="/favorites" activeClassName="active">
           <FaHeart className="sidebar-icon" />

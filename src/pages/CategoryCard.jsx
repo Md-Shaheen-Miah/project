@@ -6,7 +6,7 @@ const CategoryCard = ({ name, image, description }) => {
             <img src={image} alt={name} />
             <h3>{name}</h3>
             <p>{description}</p>
-            
+            <button>More</button>
         </div>
     );
 }
